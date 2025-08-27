@@ -32,7 +32,7 @@ typedef struct event_s {
  *  @field  dim             The number of events in the recording.
  *  @field  is_chunk        A flag to indicate that the file is being read in
  *                          chunks and not all at once.
- *  @field  time_window     The time window duration expressed in milliseconds
+ *  @field  time_window     The time window duration expressed in microseconds
  *                          when the file is read in recordings of fixed 
  *                          duration.
  *  @field  is_time_window  Flag to indicate that the file is being read in 
