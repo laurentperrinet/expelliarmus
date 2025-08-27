@@ -115,11 +115,11 @@ print(f"Chunk first event: {chunk[0]}.")
     Chunk first event: (5840504, 707, 297, 0).
 
 
-Let us read a chunk of at most `time_window` milliseconds duration from the file:
+Let us read a chunk of at most `time_window` microseconds duration from the file:
 
 
 ```python
-time_window = 5
+time_window = 5 # must be an integer
 wizard.set_time_window(time_window)
 
 # Calling the generator once.
